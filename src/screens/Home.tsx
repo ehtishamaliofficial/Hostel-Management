@@ -63,7 +63,7 @@ const Home = () => {
     }
   }, [incomingPayment, outgoingPayment]);
 
-  console.log(pending);
+  console.log(pending.length);
 
   return (
     <SafeAreaView className="flex-1 bg-white">
@@ -153,6 +153,7 @@ const Home = () => {
                   </Text>
                   <Text
                     style={{
+                      ...GlobalStyle.textSemiBold,
                       fontSize: hp(3.5),
                     }}
                     className="text-black">
@@ -189,6 +190,7 @@ const Home = () => {
                   <Text
                     style={{
                       fontSize: hp(3.5),
+                      ...GlobalStyle.textSemiBold,
                     }}
                     className="text-black">
                     {inComing}
@@ -312,12 +314,19 @@ const addedToPendingPayment = (
   pendingList: PendingPayment[],
 ) => {
   payments.forEach(payment => {
-    if (isExits(pendingList, payment.createdById)) {
-      const index = pendingList.findIndex(item => item.id === payment.id);
-      const newPendingList = [...pendingList];
-      newPendingList[index].karchas.push(payment);
-      setPending(newPendingList);
-    } else {
+    let exits: boolean = false;
+
+    pendingList.forEach(item => {
+      if (item.id === payment.createdById) {
+        exits = true;
+        console.log('Already exits');
+      } else {
+        console.log('Not exits');
+        exits = false;
+      }
+    });
+
+    if (!exits) {
       setPending(prev => [
         ...prev,
         {
@@ -328,6 +337,8 @@ const addedToPendingPayment = (
           karchas: [payment],
         },
       ]);
+    } else {
+      console.log('Already exits in pending list');
     }
   });
 };

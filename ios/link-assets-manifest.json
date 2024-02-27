@@ -2,6 +2,14 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "src/assets/animation/login.json",
+      "sha1": "7294e8e5f7fbaceed28d8c03dcff5249d6d36316"
+    },
+    {
+      "path": "src/assets/animation/welcomescreen.json",
+      "sha1": "566e5df2aac5ea97d94aca855562b17712195403"
+    },
+    {
       "path": "src/assets/fonts/Inter-Black.ttf",
       "sha1": "f79fa58ace5f55e338c99bf71e7e0702841df6f2"
     },
@@ -36,6 +44,62 @@
     {
       "path": "src/assets/fonts/Inter-Thin.ttf",
       "sha1": "757805e615c974756646e54ceff8e409d5c47207"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Black.otf",
+      "sha1": "3e64827b3c62a2073209d6088bd71b0d9e9c44ad"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-BlackIt.otf",
+      "sha1": "e737225ed2b9b5c27076c4bd71223602abec59a8"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Bold.otf",
+      "sha1": "f4d98c36159f7cf22ba1966b94598d4e88c57c33"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-BoldIt.otf",
+      "sha1": "2f818203d085bc74dca10bc7a4e9ae7e40d06e7b"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-ExtraLight.otf",
+      "sha1": "f4e0558226ed58df0ce39518183cb5d42f03b4aa"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-ExtraLightIt.otf",
+      "sha1": "8331a1bf66082f3965214b870edf4d14b89fde3c"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-It.otf",
+      "sha1": "4cc8ac5f8723945ec32ce57d0b91d94c6a2a373a"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Light.otf",
+      "sha1": "1c12ec67716958d8a123a397330549fc82f7079a"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-LightIt.otf",
+      "sha1": "26a6aefd67ace1a6506171436961b952d9028427"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Regular.otf",
+      "sha1": "7e37a91960863a58af44a34e0c4fed7f5e376d04"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Semibold.otf",
+      "sha1": "a3608bc60c329b8d5e7c92d0cbb1acfa4d3e4dfa"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-SemiboldIt.otf",
+      "sha1": "de11a08f45e48ebb99ad0f57891603066e880d34"
+    },
+    {
+      "path": "src/assets/jpg/login.jpeg",
+      "sha1": "802c25dc00de0f91f8471c0306fc1b85a327be7d"
+    },
+    {
+      "path": "src/assets/png/logo.png",
+      "sha1": "0b958252bcf1831c397a7adc50568c26ea5b9a60"
     }
   ]
 }

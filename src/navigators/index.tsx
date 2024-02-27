@@ -25,7 +25,7 @@ const Navigators = () => {
               title: 'Add Record',
               headerShadowVisible: false,
               headerTitleStyle: {
-                ...GlobalStyle.textSemiBold,
+                ...GlobalStyle.textBold,
               },
             }}
           />

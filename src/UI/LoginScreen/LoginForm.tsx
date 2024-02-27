@@ -40,7 +40,7 @@ const LoginForm: React.FC<Props> = ({
   return (
     <View className="flex-1 bg-white relative">
       <Image
-        source={require('../../assets/jpg/58d23edd07ec538f47946e23e68f2ea3_t.jpeg')}
+        source={require('../../assets/jpg/login.jpeg')}
         resizeMode="cover"
         blurRadius={40}
         className="absolute w-full h-full"
